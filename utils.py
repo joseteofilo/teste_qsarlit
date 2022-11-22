@@ -34,7 +34,7 @@ from io import BytesIO
 from PIL import Image
 
 
-def deploy_chembl():
+"""def deploy_chembl():
     import os,subprocess
     import sys
     files = os.listdir()
@@ -55,7 +55,7 @@ def deploy_chembl():
                 if chbl.returncode != 0:
                     st.error("Error installing ChEMBL_Structure_Pipeline. Please try again.")
                 else: st.write('ChEMBL_Structure_Pipeline installed')
-    else: pass
+    else: pass"""
 def persist_dataframe(df,updated_df,col_to_delete):
             # drop column from dataframe
             delete_col = st.session_state[col_to_delete]
