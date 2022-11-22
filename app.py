@@ -3,7 +3,7 @@ from multiapp import MultiApp
 import home, cur, cur_vs, desc, rf, svm, lgbm, vs, maps, rf_re, svm_re, lgbm_re #import your app modules here
 import utils
 
-utils.deploy_chembl()
+#utils.deploy_chembl()
 app = MultiApp()
 
 # Add all your application here
