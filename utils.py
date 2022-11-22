@@ -1,6 +1,6 @@
 from dis import disco
 from os import remove
-from tkinter.tix import InputOnly
+#from tkinter.tix import InputOnly
 from unicodedata import normalize
 from xmlrpc.client import Boolean
 from rdkit.Chem import PandasTools
