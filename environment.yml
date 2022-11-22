@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - pip=22.3
   - chembl_structure_pipeline=1.0.0
   - rdkit=2022.03.5
   - pip:
